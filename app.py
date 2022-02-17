@@ -1,4 +1,4 @@
-from fastapi import FastAPI
-app = FastAPI()
-@app.get('/')
-def root(): return {'status': 'ok'}
+from src.inference import Predictor
+model = Predictor()
+@app.post('/predict')
+def predict(): return model.predict(None)
