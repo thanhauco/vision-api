@@ -1,3 +1,2 @@
-FROM python:3.9
-RUN pip install -r requirements.txt
-CMD ["uvicorn", "app:app", "--host", "0.0.0.0"]
+FROM pytorch/pytorch:1.10-cuda11.3-cudnn8-runtime
+COPY . .
