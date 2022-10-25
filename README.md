@@ -1,2 +1,8 @@
 # Vision API
-Image classification API.
+
+## Phase 2 Features
+- Albumentations
+- Vision Transformer
+- Quantization
+- GradCAM
+- Optuna HPO
