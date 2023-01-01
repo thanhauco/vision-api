@@ -1,1 +1,1 @@
-model: vit
+batch_size: 16

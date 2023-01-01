@@ -1,1 +1,1 @@
-from src.distill import distill
+BATCH_SIZE = 16 # Reduced from 32
