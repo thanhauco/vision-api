@@ -1,2 +1,3 @@
-def visualize_cam(model, img):
-    pass
+def visualize(model, img):
+    if img is None: return
+    # fix logic
