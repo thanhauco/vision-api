@@ -1,2 +1,2 @@
-FROM pytorch/pytorch:1.10-cuda11.3-cudnn8-runtime
-COPY . .
+FROM python:3.9-slim-buster
+RUN apt-get update
